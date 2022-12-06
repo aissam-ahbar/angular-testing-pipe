@@ -1,3 +1,5 @@
-# angular-testing-pipe
+# Angular Testing Pipe
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/node-qx8euh)
+```
+
+```

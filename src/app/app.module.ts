@@ -7,6 +7,7 @@ import { CustomUppercasePipe } from './pipe/custom-uppercase.pipe';
 @NgModule({
   declarations: [AppComponent, CustomUppercasePipe],
   imports: [BrowserModule],
+  providers: [CustomUppercasePipe],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
