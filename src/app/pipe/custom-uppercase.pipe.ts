@@ -1,7 +1,7 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
-@Pipe({ name: 'custompipe', pure: true })
-export class CustomPipe implements PipeTransform {
+@Pipe({ name: 'customUppercasePipe', pure: true })
+export class CustomUppercasePipe implements PipeTransform {
   transform(input: string): string {
     return input.length === 0 ? '' : input.toUpperCase();
   }

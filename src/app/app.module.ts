@@ -2,12 +2,11 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { CustomPipe } from './pipe/custompipe.pipe';
+import { CustomUppercasePipe } from './pipe/custom-uppercase.pipe';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, CustomUppercasePipe],
   imports: [BrowserModule],
-  providers: [CustomPipe],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
